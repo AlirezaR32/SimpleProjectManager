@@ -13,3 +13,14 @@ A simple project and task management system written in Python. This program allo
 ## How to Run 🚀
 ```bash
 python project_manager.py
+```
+##Class Structure 🧱
+- task: Represents a task with title, description, due date, and status
+- user: Represents a user with name, ID, and a list of assigned tasks
+- project: Represents a project with name, list of users, and list of tasks
+##Data Storage 💾
+All project data is saved in a project.json file using JSON format.
+##TODO ✅
+- Add ability to delete tasks or projects
+- Display full task list per user
+- Add graphical interface using Tkinter or PyQt
